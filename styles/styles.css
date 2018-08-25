@@ -1,0 +1,136 @@
+body {
+  background-image: url(../img/back2.png);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: Helvetica, Georgia, sans-serif;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: Helvetica, Georgia, sans-serif;
+  text-decoration: underline;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  vertical-align: center;
+  background-color: ghostwhite;
+  font-size: 1.3rem;
+}
+
+ul {
+  font-size: 1.5rem;
+}
+
+li {
+  padding: 0 10px;
+}
+
+.main-info {
+  border-top: 3px dotted black;
+  border-bottom: 3px dotted black;
+  padding: 10px;
+}
+
+.profile-img {
+  float: right;
+  margin-right: 80px;
+  margin-top: 5px;
+  width: 230px;
+  height: 280px;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.main-table {
+  width: 70%;
+  margin-left: 30px;
+}
+
+/* Table left column code */
+.left-col {
+  width: 150px;
+  background-color: bisque;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.site-icon {
+  float: left;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.site-text {
+  padding: 10px 10px 10px 0;
+  float: left;
+}
+
+.education {
+  background-color: ghostwhite;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.qualification {
+  background-color: ghostwhite;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.experience {
+  background-color: ghostwhite;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+
+.job-target {
+  background-color: ghostwhite;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+
+.soft-skills {
+  background-color: ghostwhite;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.div-col{
+  float: left;
+  width: 48%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.div-col-left {
+  margin-right: 60px;
+}
+
+
+
+
+
